@@ -88,14 +88,30 @@ box-sizing: border-box;
     display: grid; /* criar uma "tabela" para os itens */
     grid-template-columns: 1fr 1fr auto; /* colocar quantidade de colunas, o Auto é o tamanho*/
 }
-.historiatext p{
+.historia-titulo{
+    background-color: #eee;
+    text-align: center;
+    font-size: 20px;
+    color: #a8001c;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
+}
+.historia-text p{
     justify-self: start; /* deixar a escrita na esquerda/ começo da pagina */
+   font-size: 20px;
+    
 
 }
 
 .historia-img img{
     justify-self: end; /* deixar a imagem na direita/ final da pagina */
+    margin-left: 60px;
+    width: 70%;
+    height: auto;
 
+    
+   
 }
 
  
